@@ -30,6 +30,7 @@ router.push("/login");
 }
 catch(error:any){
     console.log("Signup failed", error.message);
+    console.log("signup failed herer")
 
 toast.error(error.message);
 }
